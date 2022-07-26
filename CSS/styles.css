@@ -1,0 +1,651 @@
+:root {
+--title-text-color: #212121;
+}
+
+.list{list-style: none;
+}
+
+.link {text-decoration: none;
+}
+
+.body-font {font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+p{ margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol { margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img { display: block;
+}
+
+address{ font-size: normal;
+}
+
+button { cursor: pointer
+    ;}
+
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+/* header */
+
+.nav { 
+    display: flex;
+align-items: center;
+padding-top: 24px;
+padding-bottom: 24px;
+}
+
+
+.page-nav { 
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.menu-address { 
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+
+.menu-address :not(:last-child) {
+    margin-right: 50px;
+}
+
+.menu-item:not(:last-child) {
+    margin-right: 50px;
+}
+
+
+.logo {
+    margin-right: 93px;
+    font-family: 'Raleway' , sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.logo-accent {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.menu-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.43;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+}
+
+.menu-link:hover,
+.menu-link:focus { 
+    color: #2196F3; 
+}
+
+
+.tel-mail-header {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.43;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+ 
+.icon-mail-header {
+    margin-right: 10px;
+    fill: currentColor;
+
+}
+
+
+
+
+.tel-mail-header:hover,
+.tel-mail-header:hover:focus {
+    color: #2196F3;
+}
+
+
+/* body */
+
+.background-hero-sizes {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+     url(../images/background\ img.jpg);
+    background-size: cover;
+    background-color: #2F303A;
+}
+
+.efect-solution {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+  
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF; 
+    width: 696px;
+    margin: 0 auto;
+   
+}
+
+
+.m-button {
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.86;
+    font-family: 'Roboto', sans-serif;
+    
+
+    text-align: center;
+     letter-spacing: 0.06em;
+     background-color: #2196F3;
+     color: white;
+     border-radius: 4px;
+     padding-top: 10px;
+     padding-left: 32px;
+     padding-bottom: 10px;
+     padding-right: 32px;
+     margin-top: 40px;
+     
+}
+
+
+.m-button:hover,
+.m-button.primary:focus {
+    background-color: #188ce8;
+    color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+
+.size-section {
+    padding-top: 94px;
+   padding-bottom: 94px;
+}
+
+.size-section2 {
+    padding-bottom: 94px;
+}
+
+.size-section3 {
+    padding-bottom: 94px;
+    padding-top: 94px;
+}
+
+.size-section4 {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+
+.advantages-main-list {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.skills-sizes{
+    width: 270px;
+    justify-content: space-between;
+
+}
+
+.skills-sizes::before{
+    display: block;
+    content: '';
+    height: 120px;
+  
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #F5F4FA;
+
+    margin-bottom: 30px;
+
+}
+
+
+.icon-skills1::before {
+background-image: url(../images/advantages/antenna\ 1.svg);
+
+}
+
+.icon-skills2::before {
+background-image: url(../images/advantages/clock\ 1.svg );
+
+}
+
+.icon-skills3::before {
+    background-image: url(../images/advantages/diagram\ 1.svg);
+}
+
+.icon-skills4::before {
+    background-image: url(../images/advantages/astronaut\ 1.svg);
+}
+
+
+.skills-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-text-color);
+    margin-bottom: 10px;    
+}
+
+
+.section2 {
+display: flex;
+justify-content: space-between;
+}
+
+.section2:not(:last-child)
+{
+    margin-left: 30px;
+}
+
+.skills-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+    margin-bottom: 50px;
+}
+
+.section3-color {
+    background-color: #F5F4FA;
+}
+
+.section3{
+    display: flex;
+    justify-content:space-between;
+   
+}
+
+.section3:not(:last-child) {
+    margin-left: 30px;
+}
+
+
+.section3-box {
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
+}
+.employee-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-bottom: 10px;
+}
+
+
+.employee-padding {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+.employee-position {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+    margin-top: 10px;
+    margin-bottom: 16px;
+}
+
+
+.social-list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-list-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+
+}
+
+.social-list-icon {
+    fill:#AFB1B8;
+}
+
+
+.social-list-item:hover,
+.social-list-item:focus{
+    background-color: #2196F3;
+}
+
+
+
+.social-list-item:hover .social-list-icon,
+.social-list-item:focus .social-list-icon {
+    fill: #FFFFFF;
+}
+
+.clients-list{
+    display: flex;
+        justify-content: center;
+        gap: 30px;
+}
+
+.clients-item {
+    
+display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+    border: #AFB1B8
+    1px
+    solid;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+
+}
+
+.clients-list-icon { fill: #AFB1B8;}
+
+.clients-item:hover,
+.clients-item:focus {
+    border-color: #2196F3;
+}
+
+
+
+.clients-item:hover .clients-list-icon,
+.clients-item:focus .clients-list-icon {
+    fill: #2196F3;
+}
+
+ /* footer ---------------------------------*/
+ 
+
+.footer-sizes {
+   
+    padding-bottom: 60px;
+    height: 252px;
+    background-color: #2F303A;
+}
+
+.footer-container-class {
+    display: flex;
+   gap: 70px;
+}
+
+.footer-logo-sizes {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    
+}
+
+
+
+.footer-title {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+.footer-list-sizes {
+    margin-top: 9px;
+ 
+}
+
+ .logo-accent2 {
+     font-family: 'Raleway', sans-serif;
+     font-weight: 700;
+     font-size: 26px;
+     line-height: 1.192;
+     /* identical to box height */
+     letter-spacing: 0.03em;
+     color: #FFFFFF;}
+
+.footer-list-address {
+    color: #FFFFFF;
+}
+
+
+.footer-mail-tel-link{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color:rgba(255, 255, 255, 0.6)
+}
+
+.address-link {
+
+font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color:#FFFFFF;
+}
+
+.address-link-margin{
+    margin-top: 20px;
+}
+
+.footer-add{
+    margin-top: 75px;
+}
+.footer-title {
+     
+    display: flex;
+    color: #FFFFFF;
+
+}
+
+.footer-list-icon {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+}
+
+.footer-list-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+
+}
+
+.footer-list-item:hover,
+.footer-list-item:focus
+
+.footer-list-icon :hover,
+.footer-list-icon :focus {
+    background-color: #2196F3;
+}
+
+.footer-list-icon {
+    fill:#FFFFFF;
+}
+
+
+
+
+/* portfolio -------------------------------*/
+
+.header-portfolio {
+    border-bottom: 1px solid #ECECEC;;
+}
+
+.section-portfolio {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.items-menu-portfolio {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+
+.portfolio-button {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    background: #F5F4FA;
+    border-radius: 4px;
+    border-color: #F5F4FA;
+    padding-top: 6px;
+    padding-right: 22px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+
+
+
+}
+ 
+
+.list-items-menu:not(:last-child) {
+    margin-right: 8px;
+}
+
+
+.items-menu-portfolio{
+display: flex;
+}
+
+
+.portfolio-button:hover,
+.portfolio-button.primary:focus {
+     background-color: #188ce8;
+     color: white;
+     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+     border-radius: 4px;
+}
+
+
+
+
+
+.posters-items {
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+
+
+
+ .poster-item-boxes {
+ width: 370px;
+   margin-bottom: 30px;
+    border: 1px solid #EEEEEE;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+            1px 4px 6px rgba(0, 0, 0, 0.16);
+ }
+
+.posters-items {
+    gap: 30px;
+}
+
+ .portfolio-text-padding {
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 24px;
+padding-right: 24px;
+}
+
+.poster-title {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+     /* identical to box height, or 200% */
+     letter-spacing: 0.06em;
+    color: var(--title-text-color);
+    margin-top: 20px;
+    margin-bottom: 4px;
+}
+
+.description-poster {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    /* identical to box height, or 188% */
+    letter-spacing: 0.03em;
+    color: #757575;
+}
