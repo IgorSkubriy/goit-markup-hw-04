@@ -354,7 +354,7 @@ justify-content: space-between;
     gap: 10px;
 }
 
-.social-list-item {
+.social-list-link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -370,15 +370,15 @@ justify-content: space-between;
 }
 
 
-.social-list-item:hover,
-.social-list-item:focus{
+.social-list-link:hover,
+.social-list-link:focus{
     background-color: #2196F3;
 }
 
 
 
-.social-list-item:hover .social-list-icon,
-.social-list-item:focus .social-list-icon {
+.social-list-link:hover .social-list-icon,
+.social-list-link:focus .social-list-icon {
     fill: #FFFFFF;
 }
 
@@ -388,7 +388,7 @@ justify-content: space-between;
         gap: 30px;
 }
 
-.clients-item {
+.clients-link {
     
 display: flex;
     justify-content: center;
@@ -405,15 +405,15 @@ display: flex;
 
 .clients-list-icon { fill: #AFB1B8;}
 
-.clients-item:hover,
-.clients-item:focus {
+.clients-link:hover,
+.clients-link:focus {
     border-color: #2196F3;
 }
 
 
 
-.clients-item:hover .clients-list-icon,
-.clients-item:focus .clients-list-icon {
+.clients-link:hover .clients-list-icon,
+.clients-link:focus .clients-list-icon {
     fill: #2196F3;
 }
 
@@ -507,7 +507,7 @@ font-style: normal;
     
 }
 
-.footer-list-item{
+.footer-list-link{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -518,11 +518,11 @@ font-style: normal;
 
 }
 
-.footer-list-item:hover,
-.footer-list-item:focus
+.footer-list-link:hover,
+.footer-list-link:focus
 
-.footer-list-icon :hover,
-.footer-list-icon :focus {
+.footer-list-link:hover.footer-list-icon,
+.footer-list-link .footer-list-icon :focus {
     background-color: #2196F3;
 }
 
